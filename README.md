@@ -88,7 +88,24 @@ Output:
 Time Complexity
 O(n)
 ---------------------------------------------------------
+6) Prime Number Checker (Java)
+This Java program checks whether a given number is a **prime number**.
+A number is prime if it has exactly **two divisors**: 1 and itself.
 
+* Takes an integer input from the user.
+* Loops from `1` to `n`.
+* Counts how many numbers divide `n`.
+* If divisor count is `2` → prints **Prime Number!**
+* Otherwise → prints **Not a Prime Number!**
+
+Time Complexity
+The loop runs from `1` to `n`.
+O(n)
+
+Space Complexity
+Uses only a few integer variables.
+O(1)
+---------------------------------------------------------
 
 
 
