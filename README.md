@@ -106,7 +106,24 @@ Space Complexity
 Uses only a few integer variables.
 O(1)
 ---------------------------------------------------------
+7)GCD of Two Numbers (Java)
+This Java program finds the **Greatest Common Divisor (GCD)** of two integers using the **Euclidean Algorithm**.
+The GCD is the largest number that divides both numbers without leaving a remainder.
 
+## Approach
+* Take two integers as input.
+* Use a loop to repeatedly replace the larger number with the remainder of dividing it by the smaller number.
+* Continue until one number becomes `0`.
+* The remaining non-zero number is the **GCD**.
+
+Time Complexity
+O(log(min(n1, n2)))
+The Euclidean Algorithm reduces the numbers quickly using modulo operations, making it very efficient.
+
+Space Complexity
+O(1)(constant space)
+Only a few variables are used and no additional data structures are required.
+---------------------------------------------------------
 
 
 
